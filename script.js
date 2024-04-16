@@ -220,7 +220,7 @@ function Game(playGround,p1,p2,controlInfo){
            place.classList.add("place");
            place.id = i;
            place.style.cssText = `
-                font-size:5.3rem;
+                font-size:4.9rem;
                 font-family: indie_flower;
                 color:black;
                 display:flex;
