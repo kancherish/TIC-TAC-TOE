@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+   <div class="header box-shadow-1">
+        <div class="logo box-shadow-2">TIC-TAC-TOE</div>
+   </div> 
+   <div class="playGround">
+          <div class="gameInfo">
+               <button class="strtGame box-shadow-3">NEW GAME</button>
+          </div>
+    </div>
+
+     <dialog class="dialog d1" hide>
+          <div class="modal">
+               <div class="playerModal">
+                    <div class="p1">PLAYER 1 ----->  X</div>
+                    <div class="p2">PLAYER 2 ----->  0</div>
+               </div>
+               <div class="playerName">
+                    <input type="text" class="playerNameinput" id="p1" placeholder="ENTER PLAYER1 NAME:">
+                    <input type="text" class="playerNameinput" id="p2" placeholder="ENTER PLAYER2 NAME:">
+               </div>
+               <div class="turn">FIRST TURN: PLAYER 1</div>
+               <button class="strtModal strtGame box-shadow-3">START!</button>
+          </div>
+     </dialog>
+
+     <dialog class="dialog d2" hide>
+          <div class="modal">
+               <div class="won"></div>
+               <button class="strtModal strtGame box-shadow-3 restart">RESTART GAME!</button>
+          </div>
+     </dialog>
+
+   <div class="footer">
+        MADE WITH ❤️ BY <a href="https://github.com/kancherish">CHERISH KANSARA</a>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
