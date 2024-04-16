@@ -6,4 +6,4 @@
 
 [problem link](https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe)
 
-[solution live link]()
+[solution live link](https://github.com/kancherish/TIC-TAC-TOE)
